@@ -15,6 +15,16 @@ body { @include font-family("Buda", cursive); }
 
 }
 
+// @mixin border-radius($radius) {
+//   -webkit-border-radius: $radius;
+//      -moz-border-radius: $radius;
+//       -ms-border-radius: $radius;
+//           border-radius: $radius;
+// }
+
+// .container { @include border-radius(10px); }
+
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
